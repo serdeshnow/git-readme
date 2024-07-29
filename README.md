@@ -17,4 +17,10 @@
 4. git checkout -b [branch_name] (создание ветки и переключение на нее)
 # слияние веток
 1. git merge [branch_name] (слияние веток. [branch_name] - ветка, из которой берем изменения (находимся в той ветке, в которую закидываем изменения))
-
+2. GitHub -> project -> Pull Request -> New pull request -> Create pull request -> Add title + comment -> Create pull request
+3. add comment -> start review -> finish review
+4. resolve conversation -> merge pull request
+5. goood job
+# разделы в pull request
+1. conversation 
+2. files changed
