@@ -15,6 +15,8 @@
 2. git branch [branch_name] (создание ветки)
 3. git checkout [branch_name] (переключение между ветками)
 4. git checkout -b [branch_name] (создание ветки и переключение на нее)
+# удаление веток
+1. git branch -d [branch_name] (флаг -d это удаление ветки)
 # слияние веток
 1. git merge [branch_name] (слияние веток. [branch_name] - ветка, из которой берем изменения (находимся в той ветке, в которую закидываем изменения))
 2. GitHub -> project -> Pull Request -> New pull request -> Create pull request -> Add title + comment -> Create pull request
@@ -24,3 +26,6 @@
 # разделы в pull request
 1. conversation 
 2. files changed
+# решение конфликтов
+1. git merge -> conflict -> зелегая полоска (current change - это где находишься), синяя полоска (incoming change - другая ветка, в которой тоже меняли этот файл) -> надпись сверху (accept current change / accept incoming change / accept all change) -> git add . -> git commit -m [message] -> git log
+
