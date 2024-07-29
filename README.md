@@ -1,6 +1,6 @@
 # git-readme
 
-#база 
+# база 
 1. git status (тыкать в любом непонятном случае)
 2. git add . (добавлять файлы в stage)
 3. git commit -m "" (commit = запись)
@@ -15,3 +15,6 @@
 2. git branch [branch_name] (создание ветки)
 3. git checkout [branch_name] (переключение между ветками)
 4. git checkout -b [branch_name] (создание ветки и переключение на нее)
+# слияние веток
+1. git merge [branch_name] (слияние веток. [branch_name] - ветка, из которой берем изменения (находимся в той ветке, в которую закидываем изменения))
+
